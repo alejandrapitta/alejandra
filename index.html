@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- se re dirige desde la nueva carpeta de style.css y se dan los comandos alli de lo que quiero que cambie -->
+  <!-- <header> </header> es un contenedor de informacion en encabezado -->
+  <!-- backgroud para elegir foto de fondo -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- aqui se pone el tirulo que aparece en la pestaña -->
+  <title>FUNDAMENTOS DE LA PROGRAMACION</title>
+
+  <!-- aqui se pone el favicon -->
+  <link rel="icon"
+    href="https://img.freepik.com/vector-gratis/ilustracion-moderna-concepto-computadora-escritorio_114360-11616.jpg" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+
+    <!-- el nombre de mi web titulo de pagina -->
+    <div style="text-align: center;">
+      <h1 style="color: rgb(170, 69, 119);"> Lenguajes de programacion </h1>
+    </div>
+
+    <!-- editar y hacer bien a href de listas e id ... nav -->
+    <nav style="display: flex; justify-content: space-around;">
+      <a href="#html"> HTML </a> <br>
+      <a href="#ccs"> CCS </a>
+      <a href="#javascript"> JAVA SCRIPT</a>
+      <a href="#python"> PYTHON</a>
+      <a href="#sql"> SQL</a>
+    </nav>
+
+  </header>
+
+  <section>
+    <article>
+      <h4>La programación es el arte de organizar un conjunto de instrucciones que las computadoras siguen para realizar
+        tareas específicas. Es fundamental para la comunicación entre usuarios y máquinas, y es la base de todas las
+        aplicaciones y programas que usamos a diario.</h4>
+      </p>
+    </article>
+    <h2> <span style="color: darkmagenta;">Bases para construir paginas web</H2>
+    <article>
+      El diseño web combina estética y funcionalidad. Dominar HTML, CSS y JavaScript es fundamental para crear páginas
+      web visualmente atractivas, interactivas y adaptadas a cualquier dispositivo. Con estas tecnologías, los
+      diseñadores web pueden ofrecer soluciones personalizadas y optimizadas que destacan en un entorno competitivo.
+    </article>
+  </section>
+
+  <section class="lenguajes" id="html">
+
+    <div class="titulos-seccion">
+      <h3> LENGUAJE HTML </h3>
+    </div>
+
+    <article>
+      <h4>Estructura Basica</h4>
+
+      <!-- arreglar letra lado izquierdo imagen lado derecho  -->
+
+      <div id="basica-html" display="flex;justify-content;space-around">
+        <p style="width: 50%;">
+
+          < ! doctype html> Indica que la versión corresponde a HTML5.
+            <br>
+            < html lang=“es”> Es la etiqueta principal que engloba al resto de las etiquetas, el atributo lang
+              deﬁne el tipo de lenguaje.
+              <br>
+              < head> Es la cabeza del documento que contiene los metadatos de la página web.
+                <br>
+                < meta charset=»utf-8″ /> Indica al navegador qué tipo de caracteres contiene la página, con el atributo
+                charset vamos a indicar el conjunto de caracteres que vamos a usar y con el valor «utf-8» abarcamos a la
+                mayoría de los sistemas de escritura.
+                <br>
+                < title> Indica el título de la página Web, que se visualiza en la barra de título del navegador.
+                  <br>
+                  < body> Es el cuerpo del documento donde va a estar todo el contenido que vamos a mostrar.
+                    <br>
+                    «En Visual Studio Code escribimos html:5, presionamos TAB y este código se escribirá
+                    automáticamente.»
+        </p>
+
+        <img src="https://i0.wp.com/elprofealegria.com/wp-content/uploads/2024/04/EstructuraWebCodigo.png?w=595&ssl=1"
+          width="50%">
+      </div>
+
+    </article>
+<article>
+    <!-- ul listas con viñetas -->
+    <ul class="listas" id="1">
+
+      <li>Las <strong>etiquetas</strong> HTML contienen instrucciones para definir un elemento HTML específico e indican
+        cómo mostrarlo en la página. Cada etiqueta HTML comienza con un símbolo de menor que "
+        < " y termina con un símbolo de mayor que ">", y preceden y siguen al contenido del elemento. Por ejemplo, la
+          etiqueta < p> define un párrafo en HTML.
+      </li>
+      <br>
+      <li>Un <strong>elemento</strong> HTML es un conjunto completo de etiquetas y contenido que define un elemento
+        específico en una página web. Es decir, los elementos HTML son el contenido de la página intercalado entre las
+        etiquetas. Por ejemplo, el elemento < p> incluiría tanto la etiqueta de apertura < p> como el contenido del
+            párrafo, así como la etiqueta de cierre < / p>.</li>
+      <br>
+      <li>Los <strong>atributos</strong> HTML proporcionan información adicional a los elementos HTML sobre cómo se debe
+        procesar o mostrar el contenido. Los atributos se agregan a las etiquetas HTML utilizando la sintaxis de "nombre
+        de atributo=valor". Por ejemplo, la etiqueta < img> puede incluir un atributo src que especifique la ubicación
+          de
+          la imagen en la página, o la etiqueta < html> puede incluir un atributo lang que especifique el idioma y país:
+            < html lang="en-US">.</li>
+    </ul>
+  </article>
+    <!-- hasta aqui arreglar   -->
+    <article>
+      <h4>Etiqueta</h4>
+   
+      <p>son códigos utilizados para "marcar" el texto de una página web, con el fin de dar instrucciones al navegador
+      sobre cómo mostrarlo.
+      <br>
+      contiene tres partes:
+
+      Una etiqueta de apertura — esta empezará con un símbolo <>.
+        Contenido — unas breves instrucciones sobre cómo mostrar el elemento en la página.
+        Una etiqueta de cierre — cerrará con un símbolo </>.
+      Sin embargo, algunas etiquetas de HTML pueden no cerrarse. Esto significa que la etiqueta HTML no necesita cerrarse con un
+      </>. Normalmente, usarás etiquetas no cerradas para metadatos o saltos de línea.
+    </p>
+   <br>
+      <img src="Screenshots\Captura de pantalla 2024-11-06 135104.png" width="26%">
+    <img src="Screenshots\Captura de pantalla 2024-11-06 135129.png" width="26%">
+      <img src="Screenshots\Captura de pantalla 2024-11-06 135147.png" width="31%">
+
+    </article>
+
+    <article>
+      <h4>Elemento</h4>
+      El elemento HTML es todo, desde la etiqueta de inicio hasta la etiqueta final
+    </article>
+
+    <article>
+      <h4>Atributo</h4>
+      Es un valor adicional que da una configuracion a los *ELEMENTOS*, son palabras especiales que se utilizan dentro de la etiqueta de apertura para controlar el comportamiento del elemento.
+    Existen dos tipos de elementos: 
+    <ul class="atributos">
+      <li> Globales:
+      </li>
+      <li> 
+      </li>
+
+    </ul>
+    
+    </article>
+
+  </section>
+
+
+
+  <section class="lenguajes" id="ccs">
+
+    <div class="titulos-seccion">
+      <h3> LENGUAJE CCS </h3>
+    </div>
+   <p>CSS (Hojas de Estilo en Cascada) es la piedra angular del diseño web. Transforma estructuras HTML simples en sitios web visualmente cautivadores. Es un lenguaje que permite a los desarrolladores y diseñadores web dictar la apariencia de los elementos HTML.
+
+    Piensa en HTML como el esqueleto de una página web, proporcionando los bloques de contenido básicos. CSS es el atuendo elegante, el maquillaje y la estética general que da vida a la página web. Con CSS, puedes controlar:</p> 
+<ul>
+<li>Colores y Fuentes: Cambia el color del texto, el tamaño y el tipo de letra.0
+</li>
+<li>Diseño: Crea diseños de múltiples columnas, posiciona elementos exactamente donde los quieres y crea diseños que se adapten perfectamente a cualquier tamaño de pantalla.</li>
+<li>Fondos: Agrega imágenes o colores de fondo.</li>
+<li>Animaciones y Transiciones: Crea efectos visuales suaves para mejorar la interacción del usuario.</li>
+<li>Añadir Toques Interactivos: Incorpora sombras sutiles, transiciones suaves y animaciones para atraer y deleitar a tus visitantes.</li>
+</ul>
+    <article>
+      <h4>Relacion entre HTML y CSS </h4>
+      <p>tienen una relación muy fuerte entre ellos, ya que el HTML es un lenguaje de marcado (constituye la base de un sitio web) y CSS define el estilo de la página (toda la parte estética).
+
+A pesar de que las Hojas de Estilo en Cascada no son imprescindibles, son importantes para darle forma y apariencia a tu página web. Si solo usas HTML tu página se verá desnuda y no destacará entre la competencia.
+   </p>
+   </article>
+    <article>
+      <h4>Estructura CCS</h4>
+
+
+    </article>
+
+  </section>
+
+  <section class="lenguajes" id="javascript">
+
+    <div class="titulos-seccion">
+      <h3> LENGUAJE JAVA SCRIPT</h3>
+    </div>
+    <article>
+      <p> es un lenguaje de programación muy flexible, utilizado (tanto en navegador como en servidores) para crear funcionalidades, automatizar tareas, modificar la estructura de una página, etc. Es considerado el lenguaje oficial de la web</p>
+   <p>Puedes hacer casi cualquier cosa con JavaScript. Puedes empezar con pequeñas cosas como carruseles, galerías de imágenes, diseños fluctuantes y respuestas a las pulsaciones de botones. Con más experiencia, serás capaz de crear juegos, animaciones 2D y gráficos 3D, aplicaciones integradas basadas en bases de datos ¡y mucho más!</p>
+    </article>
+
+  </section>
+
+  <section class="lenguajes" id="python">
+    <div class="titulos-seccion">
+      <h3> LENGUAJE PYTHON </h3>
+    </div>
+    <article> 
+      <p>Es un lenguaje de programación web en entornos de back-end, scripting en local y servidores, que facilita las tareas de gestión y automatización de procesos, y cómo no, en el análisis de datos y programación científica.</p>
+    </article>
+  </section>
+
+  <section class="lenguajes" id="sql">
+ <div class="titulos-seccion">
+      <h3> LENGUAJE SQL</h3>
+    </div>
+    <article> 
+
+    </article>
+  </section>
+
+
+
+
+  <!-- <a href= para hacer referencia (#... numeral de mi id, luego nombre con que quiero que aparezca)-->
+  <ul>
+    <li><a href="#1">DIFERENCIAS</a> </li>
+    <li><a href="#2">ENLACE DE OPCIONES</a></li>
+  </ul>
+
+
+  <h4><span style="color: deeppink;">Que es una pagina web en html:</span></h4>
+  </p>
+
+  Es un documento de texto con marcas. Forma parte del lenguaje utilizado para la elaboración de sitios web y hace
+  referencia a los enlaces que conectan páginas web entre sí, dentro de un único sitio o varios.
+  Las marcas utilizadas en HTML sirven para etiquetar diferentes elementos dentro de un página web: imágenes, texto,
+  videos, entre otros. Seguro ya has visto de qué te hablamos, pero te mostramos algunos ejemplos de etiquetas:
+
+  <p>
+    <img
+      src="C:\Users\Alumna10.DESKTOP-GMVPF2A.000\Desktop\curso programacion alejandra\Screenshots\Captura de pantalla 2024-10-29 110540.png"
+      alt="Estructura html" width="80">
+    <img src="https://disenowebakus.net/imagenes/articulos/estructura-basica-de-una-pagina-web-en-html.jpg"
+      alt="estructura html" width="200">
+    <img src="https://i.gifer.com/origin/ba/ba1d5926c8bf9e0052b922cb08aa1e49_w200.gif" width="80">
+
+
+
+    <!-- centrado con margin style="display: block; margin: auto"-->
+
+  <nav>
+    <div><img
+        src="C:\Users\Alumna10.DESKTOP-GMVPF2A.000\Desktop\curso programacion alejandra\Screenshots\Captura de pantalla 2024-10-29 112205.png"
+        alt="" width="200">
+      <img src="https://keepcoding.io/wp-content/uploads/2022/05/Secciones-de-una-pagina-web-en-html.jpg" width="50">
+        </div>
+  </nav>
+  <hr style="height:4px; background-color: black;">
+
+  <!-- centrado con div -->
+
+  <div style="text-align: center;">
+    <h4 style="color: blue;">DIFERENCIAS ENTRE ATRIBUTO, ELEMENTO Y ETIQUETA</h4>
+  </div>
+
+
+
+  <a href="https://lenguajehtml.com/html/"> lenguaje html
+
+    <a href="https://www.youtube.com/watch?v=cqMfPS8jPys&list=PLhSj3UTs2_yVHt2DgHky_MzzRC58UHE4z" target="_blank">
+      <h2>Pincha aqui ( curso html desde o)</h2>
+    </a>
+
+    <!-- <ol>  </ol> listas con numero -->
+    <ol class="listas" id="2">
+      <li><a href="https://www.uv.es/jac/guia/tamanyo.htm" target="_blank">Tamaños y letras</a></li>
+      <li><a href="https://www.uv.es/jac/guia/indice.htm" target="_blank">Todos los estilos para crear</a></li>
+    </ol>
+    <hr style="height: 4px; background-color: black;">
+
+
+    <!-- backgroud en footer para cambiar fondo como resaltador -->
+    <footer style="background-color: rgba(163, 156, 219, 0.881);">
+      Esto es el footer la parte de abajo de la pagina
+      <!-- Se puede enlazar el correo electronico para ser contactado o calquier enlace de contacto-->
+      <br> como para ser contactado ej:
+      <br>
+      <img src="https://www.ciberseguridadlatam.com/wp-content/uploads/2018/05/gmail-640x268.jpg" width="50" alt="">
+      <a href="mailto:alejandrapitta02@gmail.com"> CORREO ELECTRONICO </a>
+      <br>
+      <img src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-call-by-phone-image_1147524.jpg" width="40"
+        alt="">
+      <a href="tel:+34604077895">TELEFONO </a>
+      <br>
+      <img src="https://i.pinimg.com/474x/e1/05/f8/e105f8759de1bd1745fbb5679f0298df.jpg" width="40" alt="">
+      <a href="https://wa.me/34604077895">WHATSAPP</a>
+      <br>
+      <address><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5010.439878818561!2d-3.664233924906919!3d40.37542015815395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4225d57a9850f3%3A0x420e605fe1760b6!2sEMMA!5e1!3m2!1sen!2ses!4v1730716700540!5m2!1sen!2ses"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe></address>
+         
+
+    </footer>
+
+
+
+</body>
+
+</html>

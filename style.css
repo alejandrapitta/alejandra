@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(214, 148, 183);
+    background-image: url("https://png.pngtree.com/background/20230527/original/pngtree-on-a-pink-background-is-a-laptop-on-a-pink-surface-picture-image_2769471.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+/* cover para expandir imagen es toda la pagina, fixed para que sea una sola imagen en el fondo de pantalla sin que se duplique */
+} 
+
+
+#basica-html{
+    display: flex;
+} 
+
+.titulos-seccion{
+    text-align: center;
+    color: purple;
+}
+
+p{ font-size: medium;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
